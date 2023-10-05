@@ -1,0 +1,41 @@
+:root {
+  --font-family: "Nunito", sans-serif;
+  --main-color: #fff;
+  --second-color: #ee6336;
+  --dark-color: #000;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+  background-color: var(--main-color);
+}
+
+body,
+h1,
+h2 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  font: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
